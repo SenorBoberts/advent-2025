@@ -78,7 +78,7 @@ fn readfile(p: &str) -> Vec<i32>{
     return ns;
 }
 
-pub fn day1(){
+fn main(){
     let vals = readfile("inputs/day1/day1.txt");
     let zeros = count_zeros_part1(&vals);
 
